@@ -1,0 +1,48 @@
+.row1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+figure {
+    display: grid;
+    place-items: center;
+    margin: 5% 0;
+}
+
+figure img {
+
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.organize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gsc-control-searchbox-only{
+    display: grid;
+    place-items: center;
+}
+
+.gsc-search-box{
+ max-width: 750px;
+ padding: 8px;
+ border-radius: 50px;
+ background-color: lightgray;
+}
+
+.gsc-input-box {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gsc-control-cse {
+    display: none;
+}
